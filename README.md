@@ -75,26 +75,23 @@ Four bookmarks drive the **time period selector**, each updating the line chart'
 | Month | Year → Quarter → Month |
 | Day | Year → Quarter → Month → Weekday |
 
-The **Bookmark Navigator** visual renders these as styled buttons, giving the report an app-like feel without any custom code.
-
 <br>
 
 
 ## 🎨 Design & Theming
 
 - **Custom theme** applied at the report level for consistent branding across all visuals
-- **Custom PNG icons** registered as static resources for each metric card (heart rate, steps, calories, sessions)
+- **Simple Image icons** registered as static resources for each metric card (heart rate, steps, calories, sessions)
 - **SVG background** designed in Powerpoint for more aesthetic features
-- **Simple Image** custom visual used to display metric icons cleanly within the layout
 
 <br>
 
 
 ## 🔍 Interactivity & Filtering
 
-- **User Slicer** - dropdown, single-select, filters all visuals to a specific athlete
-- **Bookmark Navigator** - switches the line chart's time granularity (Year / Quarter / Month / Day) without navigating away from the page
-- **Cross-filtering** - all visuals participate in cross-filtering
+- **User Slicer** dropdown, single-select, filters all visuals to a specific athlete
+- **Bookmark Navigator** switches the line chart's time granularity (Year / Quarter / Month / Day) without navigating away from the page
+- **Cross-filtering** all visuals participate in cross-filtering
 - **Advanced filters** applied per visual via bookmark state, ensuring each time-period view shows only the relevant metrics
 
 <br>
@@ -108,7 +105,7 @@ The **Bookmark Navigator** visual renders these as styled buttons, giving the re
 - Calculated measure for dynamic welcome/greeting text
 - Bookmark-driven navigation for UX-style time filtering
 - Custom theme design and branding
-- Static resource management (PNG icons, SVG, custom JSON theme)
+- Static resource management (icons, SVG, custom theme)
 - Custom visual integration (Simple Image)
 - Single-page app layout design in Power BI
 
