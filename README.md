@@ -14,9 +14,9 @@ The report is built on a simple but effective star schema with three tables:
 
 | Table | Role |
 |---|---|
-| `Metrics` | Fact table: stores all fitness measurements (steps, calories, heart rate, sessions) |
-| `dimDate` | Date dimension: supports time intelligence with a Calendar hierarchy (Year → Quarter → Month → Weekday) |
-| `dimUser` | User dimension: enables per-user filtering and personalization |
+| `Metrics` | Fact table stores all fitness measurements (steps, calories, heart rate, sessions) |
+| `dimDate` | Date dimension supports time intelligence with a Calendar hierarchy (Year → Quarter → Month → Weekday) |
+| `dimUser` | User dimension enables per-user filtering and personalization |
 
 <br>
 
@@ -59,7 +59,7 @@ A set of DAX measures power the interactivity and visual formatting of the dashb
 - `Total Exercise Sessions - Target Min` / `Total Exercise Sessions Range` / `Total Exercise Sessions - Axis Fill`
 
 **Dynamic Text**
-- `Welcome Text` — generates a personalized greeting based on the selected user
+- `Welcome Text` generates a personalized greeting based on the selected user
 
 <br>
 
