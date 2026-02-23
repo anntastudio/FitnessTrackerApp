@@ -14,7 +14,7 @@ https://github.com/user-attachments/assets/ccda60af-b9cb-40e8-9b1d-28cec8fa26cb
 
 <br>
 
-# DAX Measures
+## DAX Measures
 
 All measures are centralised in the `Metrics` table and organised into **6 folders**:
 
