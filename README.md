@@ -1,4 +1,4 @@
-# Fitness Tracker App — Power BI Design
+# Fitness Tracker App | Power BI Design
 A personal fitness dashboard built in Power BI, designed to monitor individual health metrics over time. The report delivers a clean, app-like experience with dynamic personalization, interactive time filtering, and visually rich KPIs.
 
 Dashboard Preview
