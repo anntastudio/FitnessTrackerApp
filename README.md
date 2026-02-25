@@ -7,6 +7,12 @@ https://github.com/user-attachments/assets/ccda60af-b9cb-40e8-9b1d-28cec8fa26cb
 
 <br>
 
+## Overall Design
+
+The report uses a **neumorphic design** aesthetic - soft, app-like UI with subtle shadows and rounded card surfaces that mimic a physical fitness app rather than a traditional BI report. Custom PNG icons replace default chart icons for steps, calories, heart rate, and sessions, and a custom SVG background reinforces the single-page app feel.
+
+<br>
+
 ## Data Model
 
 - **Lean model** with 1 fact-style table (`factFitnessStats`) and 2 dimension tables: `dimUser` and `dimDate`
@@ -49,9 +55,3 @@ All measures are centralised in the `Metrics` table and organised into **6 folde
 - **Bookmark navigator** for toggling between dashboard states
 - **Date hierarchy** on `dimDate` enables drill-down from year to individual day
 - All KPI and chart measures recalculates automatically on slicer change
-
-<br>
-
-## Overall Design
-
-The report uses a **neumorphic design** aesthetic - soft, app-like UI with subtle shadows and rounded card surfaces that mimic a physical fitness app rather than a traditional BI report. Custom PNG icons replace default chart icons for steps, calories, heart rate, and sessions, and a custom SVG background reinforces the single-page app feel.
